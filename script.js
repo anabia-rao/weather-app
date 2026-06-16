@@ -19,3 +19,10 @@ async function getweather(event) {
   document.querySelector("#temperature").innerHTML = `Temperature: ${temperature}°C`;
   document.querySelector("#description").innerHTML = `Description: ${description}`;
 }
+if (temperature > 30) {
+    document.body.style.backgroundImage.innerHTML = "url('./  images/ChatGPT Image Jun 16, 2026, 02_19_53 PM.png')";
+  } else if (temperature > 20) {
+    document.body.style.backgroundImage = "url('./images/pleasant-weather.jpg')";
+  } else if (temperature > 10) {
+    document.body.style.backgroundImage = "url('./images/cool-weather.jpg')";
+  }
