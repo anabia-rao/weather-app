@@ -7,10 +7,10 @@ h1 {
 }
 p {
   text-align: center;
-  color: #0d16b7;
+  color: #1d1789;;
   font-family: "Black Ops One", cursive;
   margin-top: 10px;
-  font-size: 20px;
+  font-size: 30px;
 }
 .weather-info {
   display: flex;
@@ -18,13 +18,17 @@ p {
   align-items: center;
   gap: 10px;
 }
+#city-name {
+  font-size: 25px;
+  color: #1d1789;
+}
 #temperature {
   font-size: 25px;
-  color: #333;
+  color: #fbf5f5;
 }
 #description {
   font-size: 25px;
-  color: #333;
+  color: #fbf5f5;
 }
 #city-input {
   width: 200px;
@@ -37,7 +41,7 @@ p {
 
 
 .weather-container {
-  background-color: rgba(252, 248, 248, 0.987);
+  background-color: rgba(0, 0, 0, 0.987);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -103,7 +107,7 @@ body {
    }
    #city-name
     {
-        text-align: center;
+    text-align: center;
      font-size: 25px;
     }
     .weather-info {
